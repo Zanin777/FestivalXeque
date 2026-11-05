@@ -3,7 +3,7 @@
 **Projeto:** SATEC 2026 – Semana Acadêmica de Tecnologia
 **Estudante:** Matheus Zanin
 **Ferramenta de IA:** Claude Code (modelo Claude Opus 5.5), da Anthropic
-**Período de uso:** 04/11/2026 e 05/11/2026
+**Período de uso:** 04/11/2026 e 05/11/2026 (o README foi feito em 05/11/2026)
 **Repositório:** https://github.com/Zanin777/Trabalho-html (branch `entrega-2`)
 
 > Este registro segue o item 5 do enunciado do Projeto Integrador:
@@ -26,6 +26,8 @@
 | `inscricao.html` | IA (100%) | Página de confirmação de inscrição (destino do `action` do formulário do `index.html`). |
 | `termos.html` | IA (100%) | Termos de participação. **O conteúdo é fictício**, escrito pela IA. |
 | `img/` (todas as imagens) | IA (100%) | Geradas por um script da IA (desenho vetorial e PowerShell/System.Drawing). Não são fotos reais: o auditório e os palestrantes são ilustrações, e os logos dos patrocinadores são inventados. Os ícones de redes sociais seguem os desenhos do conjunto Feather Icons (licença MIT). |
+| `README.md` | IA (100%) | Descrição do projeto, lista de páginas, estrutura de pastas, recursos usados e aviso sobre o conteúdo fictício. |
+| `docs/registro-uso-ia.md` | IA + estudante | Seções 1 e 2 montadas pela IA a partir do histórico da conversa; seção 3 é do estudante. |
 | `.gitignore`, commits e branch `entrega-2` | IA | A IA criou o repositório local, fez o commit e enviou para o GitHub, a pedido do estudante. |
 
 ---
@@ -69,6 +71,11 @@ Prompts enviados pelo estudante, na ordem, exatamente como foram escritos.
 
 14. *(resposta à pergunta sobre montar este registro)*
     > Sim, monte
+
+15. *(nova conversa, com o link do repositório)*
+    > https://github.com/Zanin777/Trabalho-html
+    >
+    > Quero que vc adicione o registro de uso da ia e tbm coloque uma pequena descrição e um readme
 
 ---
 
@@ -129,6 +136,6 @@ corrigiu. Servem de ponto de partida para a revisão técnica.
    genéricos.
 7. **Conteúdo fictício.** Biografias, termos de participação, logos e
    fotos são inventados. Num site real, precisariam ser trocados.
-8. **Documentação pendente.** Ainda falta registrar a convenção de
-   classes e a justificativa da abordagem mobile-first, como o enunciado
-   pede.
+8. **Documentação parcial.** O `README.md` agora cita o padrão BEM e os
+   breakpoints mobile-first, mas ainda falta a **justificativa** dessas
+   escolhas, que o enunciado pede e deve ser escrita pelo estudante.

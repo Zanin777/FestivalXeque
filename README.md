@@ -1,1 +1,73 @@
-# Trabalho-html
+# SATEC 2026 – Semana Acadêmica de Tecnologia
+
+Site estático (HTML + CSS) do evento fictício **SATEC 2026**, feito para o
+Projeto Integrador da disciplina *Interface Web com HTML e CSS*. Reúne
+programação, palestrantes, formulário de inscrição e perguntas frequentes,
+com layout responsivo e foco em acessibilidade.
+
+**Estudante:** Matheus Zanin
+
+---
+
+## Páginas
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| [`index.html`](index.html) | Página inicial: abertura, programação dos 3 dias, palestrantes, inscrição, dúvidas e informações rápidas |
+| [`palestrantes.html`](palestrantes.html) | Lista de todos os palestrantes |
+| [`palestrantes/`](palestrantes/) | Perfil de cada palestrante (Ana Souza, Bruno Lima, Carla Mendes) |
+| [`inscricao.html`](inscricao.html) | Confirmação da inscrição (destino do formulário) |
+| [`termos.html`](termos.html) | Termos de participação |
+
+## Estrutura de pastas
+
+```
+Trabalho-html/
+├── index.html
+├── palestrantes.html
+├── inscricao.html
+├── termos.html
+├── palestrantes/        # páginas de perfil
+├── css/
+│   └── estilo.css       # folha de estilo única do site
+├── img/                 # logo, fotos, ícones e logos de patrocinadores
+└── docs/
+    └── registro-uso-ia.md
+```
+
+## Como abrir
+
+Não precisa instalar nada. Basta abrir o `index.html` no navegador
+(duplo clique no arquivo) ou usar uma extensão como o *Live Server* do
+VS Code.
+
+## Recursos utilizados
+
+- **HTML semântico:** `header`, `nav`, `main`, `section`, `article`,
+  `aside`, `footer`, `table` com `caption` e `scope`, `dl`, `details`,
+  `time` e `address`.
+- **Acessibilidade:** link "Pular para o conteúdo", `aria-label` e
+  `aria-labelledby`, `aria-current` no menu, textos alternativos nas
+  imagens e `label` ligado a cada campo do formulário.
+- **CSS:** variáveis (cores e escala de espaçamento de 8px), Flexbox e
+  Grid, e classes no padrão BEM (`bloco__elemento--modificador`) nas
+  páginas internas.
+- **Responsividade mobile-first:** estilo base para celular e
+  breakpoints em `480px`, `768px` e `1200px`.
+
+## Entregas
+
+| Entrega | Tema | Branch |
+| --- | --- | --- |
+| 1 | Estrutura HTML | — |
+| 2 | Estilo e responsividade | `entrega-2` |
+
+## Uso de Inteligência Artificial
+
+Parte deste projeto foi feita com ajuda de IA (Claude Code, da Anthropic).
+O que foi gerado pela IA, os prompts usados e a revisão feita pelo
+estudante estão descritos em
+[`docs/registro-uso-ia.md`](docs/registro-uso-ia.md).
+
+> **Aviso:** biografias, termos de participação, fotos e logos de
+> patrocinadores são **fictícios**, criados apenas para fins acadêmicos.
