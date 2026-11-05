@@ -26,9 +26,10 @@
 | `inscricao.html` | IA (100%) | Página de confirmação de inscrição (destino do `action` do formulário do `index.html`). |
 | `termos.html` | IA (100%) | Termos de participação. **O conteúdo é fictício**, escrito pela IA. |
 | `img/` (todas as imagens) | IA (100%) | Geradas por um script da IA (desenho vetorial e PowerShell/System.Drawing). Não são fotos reais: o tabuleiro e os palestrantes são ilustrações, e os logos dos patrocinadores são inventados. Os ícones de redes sociais seguem os desenhos do conjunto Feather Icons (licença MIT). |
-| `README.md` | IA (100%) | Descrição do projeto, lista de páginas, estrutura de pastas, recursos usados e aviso sobre o conteúdo fictício. |
+| `README.md` | IA (100%) | Descrição do projeto, lista de páginas, estrutura de pastas, recursos usados, aviso sobre o conteúdo fictício e a seção "Decisões técnicas" (convenção BEM e justificativa do mobile-first). |
 | `docs/registro-uso-ia.md` | IA + estudante | Seções 1 e 2 montadas pela IA a partir do histórico da conversa; seção 3 é do estudante. |
 | Troca de tema para xadrez | IA (100%) | A pedido do estudante, a IA trocou o assunto do site de "semana de tecnologia" para "festival de xadrez" em todas as páginas: nome do evento, programação, cargos, biografias e palestras, formulário (o campo "Período" virou "Nível de jogo"), perguntas frequentes e termos (regras dos torneios). Também gerou por script a nova imagem de abertura (`img/hero-xadrez.svg`, tabuleiro e relógio) e o novo logo (`img/logo-xeque.svg`). O CSS e a estrutura HTML não mudaram. |
+| `<article>` nas páginas internas | IA | Depois de comparar o site com o enunciado, a IA envolveu o conteúdo de `inscricao.html`, `termos.html` e dos 3 perfis em `<article>` (eram as páginas sem esse landmark) e ajustou os seletores `main > section` do CSS para `main > article > section` também, para o espaçamento não mudar. |
 | `.gitignore`, commits e branch `entrega-2` | IA | A IA criou o repositório local, fez o commit e enviou para o GitHub, a pedido do estudante. |
 
 ---
@@ -79,6 +80,9 @@ Prompts enviados pelo estudante, na ordem, exatamente como foram escritos.
     > Quero que vc adicione o registro de uso da ia e tbm coloque uma pequena descrição e um readme
 
 16. > e tbm quero que analise e me fale o assunto do site e mude para algum assunto de xadrez
+
+17. *(anexo: `Projeto Integrador.pdf`)*
+    > Esse é o pdf da atividade, analise o site e faça o commit la no github da maneira certa
 
 ---
 
@@ -140,6 +144,9 @@ corrigiu. Servem de ponto de partida para a revisão técnica.
 7. **Conteúdo fictício.** O evento, as biografias e os títulos dos
    palestrantes (ex.: "Mestre FIDE"), os termos, os logos e as fotos são
    inventados. Num site real, precisariam ser trocados.
-8. **Documentação parcial.** O `README.md` agora cita o padrão BEM e os
-   breakpoints mobile-first, mas ainda falta a **justificativa** dessas
-   escolhas, que o enunciado pede e deve ser escrita pelo estudante.
+8. **Documentação revisável.** A justificativa do BEM e do mobile-first
+   está no `README.md` (seção "Decisões técnicas"), escrita pela IA. O
+   estudante deve revisá-la e saber defendê-la na apresentação final.
+9. **Entrega 1 sem branch.** O enunciado pede uma branch ou tag por
+   entrega. O repositório só tem `entrega-2`; a versão da Entrega 1 (HTML
+   sem CSS) não está no histórico.

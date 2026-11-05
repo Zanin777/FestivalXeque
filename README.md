@@ -56,12 +56,53 @@ VS Code.
 - **Responsividade mobile-first:** estilo base para celular e
   breakpoints em `480px`, `768px` e `1200px`.
 
+## Decisões técnicas
+
+### Convenção de classes
+
+As classes seguem o padrão **BEM** com nomes em português:
+`bloco`, `bloco__elemento` e `bloco--modificador`.
+
+| Exemplo | Tipo | Significado |
+| --- | --- | --- |
+| `.cartao-palestrante` | bloco | o cartão inteiro de um palestrante |
+| `.cartao-palestrante__foto` | elemento | a foto dentro do cartão |
+| `.lista-links--compacta` | modificador | variação mais apertada da lista de links |
+
+Motivo: o nome da classe já diz a que componente o elemento pertence, e
+cada regra vale só para aquele componente. Isso evita que um estilo
+"vaze" para outra parte do site, problema que aconteceu com o seletor
+genérico `aside li` (ver o Registro de Uso de IA).
+
+### Abordagem mobile-first
+
+O estilo base do CSS é o do celular, e os `@media (min-width: …)` em
+`480px`, `768px` e `1200px` vão acrescentando colunas e espaço conforme a
+tela cresce.
+
+Motivos:
+
+- o celular recebe o CSS mais simples (uma coluna só) e não precisa
+  "desfazer" regras de desktop;
+- o público do evento (estudantes) acessa principalmente pelo celular;
+- é mais fácil acrescentar layout (grid de 2 ou 3 colunas) do que tirar.
+
+> **Pendência conhecida:** a parte do CSS que estiliza a página inicial
+> ainda tem regras `max-width: 767px`, `max-width: 1199px` e um
+> breakpoint em `1024px`, herdadas da primeira versão. O layout funciona
+> nas três larguras, mas essa parte deve ser convertida para o mesmo
+> padrão mobile-first.
+
 ## Entregas
+
+Cada entrega fica numa branch própria, como pede o enunciado. O
+desenvolvimento acontece na `main`.
 
 | Entrega | Tema | Branch |
 | --- | --- | --- |
-| 1 | Estrutura HTML | — |
+| 1 | Esqueleto semântico (HTML) | — |
 | 2 | Estilo e responsividade | `entrega-2` |
+| 3 | Formulário e refinamento | — |
 
 ## Uso de Inteligência Artificial
 
