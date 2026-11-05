@@ -1,9 +1,9 @@
 # Registro de Uso de IA — Entrega 2 (Estilo e Responsividade)
 
-**Projeto:** SATEC 2026 – Semana Acadêmica de Tecnologia
+**Projeto:** XEQUE 2026 – Festival Acadêmico de Xadrez (antes: SATEC 2026 – Semana Acadêmica de Tecnologia)
 **Estudante:** Matheus Zanin
 **Ferramenta de IA:** Claude Code (modelo Claude Opus 5.5), da Anthropic
-**Período de uso:** 04/11/2026 e 05/11/2026 (o README foi feito em 05/11/2026)
+**Período de uso:** 04/11/2026 e 05/11/2026 (README e troca de tema para xadrez feitos em 05/11/2026)
 **Repositório:** https://github.com/Zanin777/Trabalho-html (branch `entrega-2`)
 
 > Este registro segue o item 5 do enunciado do Projeto Integrador:
@@ -25,9 +25,10 @@
 | `palestrantes/ana-souza.html`, `bruno-lima.html`, `carla-mendes.html` | IA (100%) | Páginas de perfil geradas pela IA a partir de um modelo. **Os textos de biografia são fictícios**, inventados pela IA. |
 | `inscricao.html` | IA (100%) | Página de confirmação de inscrição (destino do `action` do formulário do `index.html`). |
 | `termos.html` | IA (100%) | Termos de participação. **O conteúdo é fictício**, escrito pela IA. |
-| `img/` (todas as imagens) | IA (100%) | Geradas por um script da IA (desenho vetorial e PowerShell/System.Drawing). Não são fotos reais: o auditório e os palestrantes são ilustrações, e os logos dos patrocinadores são inventados. Os ícones de redes sociais seguem os desenhos do conjunto Feather Icons (licença MIT). |
+| `img/` (todas as imagens) | IA (100%) | Geradas por um script da IA (desenho vetorial e PowerShell/System.Drawing). Não são fotos reais: o tabuleiro e os palestrantes são ilustrações, e os logos dos patrocinadores são inventados. Os ícones de redes sociais seguem os desenhos do conjunto Feather Icons (licença MIT). |
 | `README.md` | IA (100%) | Descrição do projeto, lista de páginas, estrutura de pastas, recursos usados e aviso sobre o conteúdo fictício. |
 | `docs/registro-uso-ia.md` | IA + estudante | Seções 1 e 2 montadas pela IA a partir do histórico da conversa; seção 3 é do estudante. |
+| Troca de tema para xadrez | IA (100%) | A pedido do estudante, a IA trocou o assunto do site de "semana de tecnologia" para "festival de xadrez" em todas as páginas: nome do evento, programação, cargos, biografias e palestras, formulário (o campo "Período" virou "Nível de jogo"), perguntas frequentes e termos (regras dos torneios). Também gerou por script a nova imagem de abertura (`img/hero-xadrez.svg`, tabuleiro e relógio) e o novo logo (`img/logo-xeque.svg`). O CSS e a estrutura HTML não mudaram. |
 | `.gitignore`, commits e branch `entrega-2` | IA | A IA criou o repositório local, fez o commit e enviou para o GitHub, a pedido do estudante. |
 
 ---
@@ -76,6 +77,8 @@ Prompts enviados pelo estudante, na ordem, exatamente como foram escritos.
     > https://github.com/Zanin777/Trabalho-html
     >
     > Quero que vc adicione o registro de uso da ia e tbm coloque uma pequena descrição e um readme
+
+16. > e tbm quero que analise e me fale o assunto do site e mude para algum assunto de xadrez
 
 ---
 
@@ -134,8 +137,9 @@ corrigiu. Servem de ponto de partida para a revisão técnica.
    A IA corrigiu com `place-items: normal` em `.lista-links li`. Esse
    problema mostra por que o enunciado pede classes em vez de seletores
    genéricos.
-7. **Conteúdo fictício.** Biografias, termos de participação, logos e
-   fotos são inventados. Num site real, precisariam ser trocados.
+7. **Conteúdo fictício.** O evento, as biografias e os títulos dos
+   palestrantes (ex.: "Mestre FIDE"), os termos, os logos e as fotos são
+   inventados. Num site real, precisariam ser trocados.
 8. **Documentação parcial.** O `README.md` agora cita o padrão BEM e os
    breakpoints mobile-first, mas ainda falta a **justificativa** dessas
    escolhas, que o enunciado pede e deve ser escrita pelo estudante.

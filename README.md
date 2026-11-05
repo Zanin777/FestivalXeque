@@ -1,9 +1,10 @@
-# SATEC 2026 – Semana Acadêmica de Tecnologia
+# XEQUE 2026 – Festival Acadêmico de Xadrez
 
-Site estático (HTML + CSS) do evento fictício **SATEC 2026**, feito para o
-Projeto Integrador da disciplina *Interface Web com HTML e CSS*. Reúne
-programação, palestrantes, formulário de inscrição e perguntas frequentes,
-com layout responsivo e foco em acessibilidade.
+Site estático (HTML + CSS) do evento fictício **XEQUE 2026**, um festival
+de xadrez com três dias de torneios (blitz e rápido), aulas e palestras.
+Feito para o Projeto Integrador da disciplina *Interface Web com HTML e CSS*,
+reúne programação, palestrantes, formulário de inscrição e perguntas
+frequentes, com layout responsivo e foco em acessibilidade.
 
 **Estudante:** Matheus Zanin
 
@@ -13,11 +14,11 @@ com layout responsivo e foco em acessibilidade.
 
 | Arquivo | Conteúdo |
 | --- | --- |
-| [`index.html`](index.html) | Página inicial: abertura, programação dos 3 dias, palestrantes, inscrição, dúvidas e informações rápidas |
+| [`index.html`](index.html) | Página inicial: abertura, programação dos 3 dias (torneios, aulas e palestras), palestrantes, inscrição, dúvidas e informações rápidas |
 | [`palestrantes.html`](palestrantes.html) | Lista de todos os palestrantes |
 | [`palestrantes/`](palestrantes/) | Perfil de cada palestrante (Ana Souza, Bruno Lima, Carla Mendes) |
 | [`inscricao.html`](inscricao.html) | Confirmação da inscrição (destino do formulário) |
-| [`termos.html`](termos.html) | Termos de participação |
+| [`termos.html`](termos.html) | Termos de participação: regras dos torneios, conduta e dados |
 
 ## Estrutura de pastas
 
@@ -30,7 +31,7 @@ Trabalho-html/
 ├── palestrantes/        # páginas de perfil
 ├── css/
 │   └── estilo.css       # folha de estilo única do site
-├── img/                 # logo, fotos, ícones e logos de patrocinadores
+├── img/                 # logo, tabuleiro, fotos, ícones e logos de patrocinadores
 └── docs/
     └── registro-uso-ia.md
 ```
@@ -69,5 +70,6 @@ O que foi gerado pela IA, os prompts usados e a revisão feita pelo
 estudante estão descritos em
 [`docs/registro-uso-ia.md`](docs/registro-uso-ia.md).
 
-> **Aviso:** biografias, termos de participação, fotos e logos de
-> patrocinadores são **fictícios**, criados apenas para fins acadêmicos.
+> **Aviso:** o evento, as biografias, os títulos dos palestrantes, os
+> termos de participação, as fotos e os logos de patrocinadores são
+> **fictícios**, criados apenas para fins acadêmicos.
