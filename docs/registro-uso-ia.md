@@ -1,10 +1,10 @@
-# Registro de Uso de IA — Entrega 2 (Estilo e Responsividade)
+# Registro de Uso de IA — Entrega 1 (Esqueleto Semântico)
 
 **Projeto:** XEQUE 2026 – Festival Acadêmico de Xadrez (antes: SATEC 2026 – Semana Acadêmica de Tecnologia)
 **Estudante:** Matheus Zanin
 **Ferramenta de IA:** Claude Code (modelo Claude Opus 5.5), da Anthropic
-**Período de uso:** 04/11/2026 e 05/11/2026 (README e troca de tema para xadrez feitos em 05/11/2026)
-**Repositório:** https://github.com/Zanin777/Trabalho-html (branch `entrega-2`)
+**Período de uso:** 04/11/2026 e 05/11/2026 (README, troca de tema para xadrez e retirada do CSS feitos em 05/11/2026)
+**Repositório:** https://github.com/Zanin777/Trabalho-html (branch `entrega-1`)
 
 > Este registro segue o item 5 do enunciado do Projeto Integrador:
 > 1. mapeamento de uso, 2. prompts utilizados na íntegra e
@@ -19,18 +19,18 @@
 
 | Arquivo / parte | Quem fez | Como a IA ajudou |
 | --- | --- | --- |
-| `index.html` | Estudante | Escrito pelo estudante na Entrega 1. A IA só acrescentou `class="hero"` na primeira `<section>`, para o estilo da abertura não se aplicar às outras páginas. |
-| `css/estilo.css` | IA (100%) | Gerado inteiro pela IA, em 3 versões: tema escuro com degradê, depois estilo "cartaz editorial" e, por fim, a versão minimalista que ficou. A IA depois acrescentou as classes das páginas internas, as variáveis de espaçamento e os breakpoints mobile-first (480/768/1200px). |
+| `index.html` | Estudante | Estrutura escrita pelo estudante. A IA acrescentou `class="hero"` na primeira `<section>` e, depois, trocou os textos para o tema de xadrez. |
+| CSS (`css/estilo.css`) | IA (100%) — **retirado** | A IA chegou a gerar um CSS completo, mas ele **não faz parte desta entrega**: a Entrega 1 é só HTML. O arquivo e os `<link rel="stylesheet">` foram removidos a pedido do estudante; o CSS continua no histórico de commits para ser usado na Entrega 2. As classes que ficaram no HTML (ex.: `cartao-palestrante__nome`) não têm efeito visual agora e servem de base para a Entrega 2. |
 | `palestrantes.html` | IA (100%) | Página de listagem dos palestrantes, criada pela IA no mesmo padrão de cabeçalho e rodapé do `index.html`. |
 | `palestrantes/ana-souza.html`, `bruno-lima.html`, `carla-mendes.html` | IA (100%) | Páginas de perfil geradas pela IA a partir de um modelo. **Os textos de biografia são fictícios**, inventados pela IA. |
 | `inscricao.html` | IA (100%) | Página de confirmação de inscrição (destino do `action` do formulário do `index.html`). |
 | `termos.html` | IA (100%) | Termos de participação. **O conteúdo é fictício**, escrito pela IA. |
 | `img/` (todas as imagens) | IA (100%) | Geradas por um script da IA (desenho vetorial e PowerShell/System.Drawing). Não são fotos reais: o tabuleiro e os palestrantes são ilustrações, e os logos dos patrocinadores são inventados. Os ícones de redes sociais seguem os desenhos do conjunto Feather Icons (licença MIT). |
-| `README.md` | IA (100%) | Descrição do projeto, lista de páginas, estrutura de pastas, recursos usados, aviso sobre o conteúdo fictício e a seção "Decisões técnicas" (convenção BEM e justificativa do mobile-first). |
+| `README.md` | IA (100%) | Descrição do projeto, lista de páginas, estrutura de pastas, recursos usados, aviso sobre o conteúdo fictício e a tabela de entregas. |
 | `docs/registro-uso-ia.md` | IA + estudante | Seções 1 e 2 montadas pela IA a partir do histórico da conversa; seção 3 é do estudante. |
-| Troca de tema para xadrez | IA (100%) | A pedido do estudante, a IA trocou o assunto do site de "semana de tecnologia" para "festival de xadrez" em todas as páginas: nome do evento, programação, cargos, biografias e palestras, formulário (o campo "Período" virou "Nível de jogo"), perguntas frequentes e termos (regras dos torneios). Também gerou por script a nova imagem de abertura (`img/hero-xadrez.svg`, tabuleiro e relógio) e o novo logo (`img/logo-xeque.svg`). O CSS e a estrutura HTML não mudaram. |
-| `<article>` nas páginas internas | IA | Depois de comparar o site com o enunciado, a IA envolveu o conteúdo de `inscricao.html`, `termos.html` e dos 3 perfis em `<article>` (eram as páginas sem esse landmark) e ajustou os seletores `main > section` do CSS para `main > article > section` também, para o espaçamento não mudar. |
-| `.gitignore`, commits e branch `entrega-2` | IA | A IA criou o repositório local, fez o commit e enviou para o GitHub, a pedido do estudante. |
+| Troca de tema para xadrez | IA (100%) | A pedido do estudante, a IA trocou o assunto do site de "semana de tecnologia" para "festival de xadrez" em todas as páginas: nome do evento, programação, cargos, biografias e palestras, formulário (o campo "Período" virou "Nível de jogo"), perguntas frequentes e termos (regras dos torneios). Também gerou por script a nova imagem de abertura (`img/hero-xadrez.svg`, tabuleiro e relógio) e o novo logo (`img/logo-xeque.svg`). A estrutura HTML não mudou. |
+| `<article>` nas páginas internas | IA | Depois de comparar o site com o enunciado, a IA envolveu o conteúdo de `inscricao.html`, `termos.html` e dos 3 perfis em `<article>` (eram as páginas sem esse landmark). |
+| `.gitignore`, commits e branches | IA | A IA criou o repositório local, fez os commits e enviou para o GitHub, a pedido do estudante. A branch se chamava `entrega-2` por engano; foi trocada por `entrega-1`. |
 
 ---
 
@@ -84,6 +84,16 @@ Prompts enviados pelo estudante, na ordem, exatamente como foram escritos.
 17. *(anexo: `Projeto Integrador.pdf`)*
     > Esse é o pdf da atividade, analise o site e faça o commit la no github da maneira certa
 
+18. *(resposta à pergunta sobre corrigir a autoria dos commits)*
+    > Sim, corrija
+
+19. > não precisa colocar o css na pagina, não é para colocar, pode tirar
+
+20. *(resposta à pergunta sobre como tirar o CSS)*
+    > Hj é a entrega 2?
+
+21. > é somente a entrega 1
+
 ---
 
 ## 3. Revisão técnica (mínimo de 3 alterações)
@@ -114,39 +124,19 @@ Prompts enviados pelo estudante, na ordem, exatamente como foram escritos.
 
 ## Anexo — Pontos em aberto no código gerado
 
-Problemas e pendências que a própria IA identificou no código e **não**
-corrigiu. Servem de ponto de partida para a revisão técnica.
+Problemas e pendências que a própria IA identificou e **não** corrigiu.
+Servem de ponto de partida para a revisão técnica.
 
-1. **Seletores do `index.html` sem classes.** O enunciado pede
-   "nomenclatura de classes consistente". As páginas novas usam classes
-   (padrão BEM: `bloco__elemento--modificador`), mas a parte do CSS que
-   estiliza o `index.html` ainda usa seletores por tag e id, como
-   `#palestrantes article` e `.hero > p:nth-of-type(2)`.
-2. **Breakpoints misturados.** A parte nova do CSS é mobile-first com
-   `min-width: 480px`, `768px` e `1200px`. A parte antiga ainda usa
-   `max-width: 767px`, `min-width: 768px`, `min-width: 1024px` e
-   `max-width: 1199px`.
-3. **Espaçamentos fixos.** As variáveis `--espaco-1` a `--espaco-6`
-   foram criadas, mas a parte antiga do CSS ainda usa valores fixos
-   (`96px`, `48px`, `32px` etc.).
-4. **Formulário com `method="post"`.** O formulário envia para
+1. **Formulário com `method="post"`.** O formulário envia para
    `inscricao.html`. Em hospedagem estática, como o GitHub Pages, um POST
    para um arquivo `.html` costuma ser recusado (erro 405); `method="get"`
    funciona.
-5. **Validação do formulário.** Só usa `required` e `type="email"`. O
+2. **Validação do formulário.** Só usa `required` e `type="email"`. O
    enunciado também cita `pattern` (Entrega 3).
-6. **Regra que vazou para outro lugar (corrigida pela IA).** A regra
-   `aside li { place-items: center; }`, pensada para os logos dos
-   patrocinadores, centralizava os links da lista "Outros palestrantes".
-   A IA corrigiu com `place-items: normal` em `.lista-links li`. Esse
-   problema mostra por que o enunciado pede classes em vez de seletores
-   genéricos.
-7. **Conteúdo fictício.** O evento, as biografias e os títulos dos
+3. **Classes sem uso.** O HTML ainda tem classes (padrão BEM, como
+   `cartao-palestrante__foto`) que vieram do CSS retirado. Não atrapalham
+   a Entrega 1, mas o estudante deve saber explicar por que estão lá ou
+   removê-las.
+4. **Conteúdo fictício.** O evento, as biografias e os títulos dos
    palestrantes (ex.: "Mestre FIDE"), os termos, os logos e as fotos são
    inventados. Num site real, precisariam ser trocados.
-8. **Documentação revisável.** A justificativa do BEM e do mobile-first
-   está no `README.md` (seção "Decisões técnicas"), escrita pela IA. O
-   estudante deve revisá-la e saber defendê-la na apresentação final.
-9. **Entrega 1 sem branch.** O enunciado pede uma branch ou tag por
-   entrega. O repositório só tem `entrega-2`; a versão da Entrega 1 (HTML
-   sem CSS) não está no histórico.
