@@ -35,58 +35,60 @@
 
     <!-- ===================== CONTEÚDO PRINCIPAL ===================== -->
     <main id="conteudo">
-      <section class="cabecalho-pagina" aria-labelledby="titulo-pagina">
-        <nav class="trilha" aria-label="Você está em">
-          <ol>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="inscricao.html" aria-current="page">Inscrição</a></li>
+      <article aria-labelledby="titulo-pagina">
+        <section class="cabecalho-pagina" aria-labelledby="titulo-pagina">
+          <nav class="trilha" aria-label="Você está em">
+            <ol>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="inscricao.html" aria-current="page">Inscrição</a></li>
+            </ol>
+          </nav>
+          <p class="selo">Inscrição enviada</p>
+          <h1 id="titulo-pagina">Obrigado por se inscrever!</h1>
+          <p class="cabecalho-pagina__resumo">
+            Recebemos seus dados. Em até dois dias úteis você recebe no seu
+            e-mail a confirmação da vaga no XEQUE 2026.
+          </p>
+        </section>
+
+        <section aria-labelledby="titulo-passos">
+          <h2 id="titulo-passos">Próximos passos</h2>
+          <ol class="passos">
+            <li class="passos__item">
+              <h3 class="passos__titulo">Confirme seu e-mail</h3>
+              <p>
+                Abra a mensagem enviada por contato@xeque.edu.br e clique no link
+                de confirmação. Confira também a caixa de spam.
+              </p>
+            </li>
+            <li class="passos__item">
+              <h3 class="passos__titulo">Escolha seus torneios e aulas</h3>
+              <p>
+                Consulte a <a href="index.html#programacao">programação</a> e
+                anote os torneios e aulas de que quer participar. Os
+                emparceiramentos da 1ª rodada saem na véspera.
+              </p>
+            </li>
+            <li class="passos__item">
+              <h3 class="passos__titulo">Faça o credenciamento</h3>
+              <p>
+                No dia <time datetime="2026-10-14T08:00">14 de outubro, às 08h00</time>,
+                apresente um documento com foto no Hall para retirar seu crachá e seu número de tabuleiro.
+              </p>
+            </li>
           </ol>
-        </nav>
-        <p class="selo">Inscrição enviada</p>
-        <h1 id="titulo-pagina">Obrigado por se inscrever!</h1>
-        <p class="cabecalho-pagina__resumo">
-          Recebemos seus dados. Em até dois dias úteis você recebe no seu
-          e-mail a confirmação da vaga no XEQUE 2026.
-        </p>
-      </section>
+        </section>
 
-      <section aria-labelledby="titulo-passos">
-        <h2 id="titulo-passos">Próximos passos</h2>
-        <ol class="passos">
-          <li class="passos__item">
-            <h3 class="passos__titulo">Confirme seu e-mail</h3>
-            <p>
-              Abra a mensagem enviada por contato@xeque.edu.br e clique no link
-              de confirmação. Confira também a caixa de spam.
-            </p>
-          </li>
-          <li class="passos__item">
-            <h3 class="passos__titulo">Escolha seus torneios e aulas</h3>
-            <p>
-              Consulte a <a href="index.html#programacao">programação</a> e
-              anote os torneios e aulas de que quer participar. Os
-              emparceiramentos da 1ª rodada saem na véspera.
-            </p>
-          </li>
-          <li class="passos__item">
-            <h3 class="passos__titulo">Faça o credenciamento</h3>
-            <p>
-              No dia <time datetime="2026-10-14T08:00">14 de outubro, às 08h00</time>,
-              apresente um documento com foto no Hall para retirar seu crachá e seu número de tabuleiro.
-            </p>
-          </li>
-        </ol>
-      </section>
-
-      <section aria-labelledby="titulo-corrigir">
-        <h2 id="titulo-corrigir">Precisa corrigir algum dado?</h2>
-        <p class="texto-corrido">
-          Escreva para
-          <a href="mailto:contato@xeque.edu.br">contato@xeque.edu.br</a>
-          informando seu nome completo e o dado que deseja alterar.
-        </p>
-        <a class="botao-secundario" href="index.html">Voltar para o início</a>
-      </section>
+        <section aria-labelledby="titulo-corrigir">
+          <h2 id="titulo-corrigir">Precisa corrigir algum dado?</h2>
+          <p class="texto-corrido">
+            Escreva para
+            <a href="mailto:contato@xeque.edu.br">contato@xeque.edu.br</a>
+            informando seu nome completo e o dado que deseja alterar.
+          </p>
+          <a class="botao-secundario" href="index.html">Voltar para o início</a>
+        </section>
+      </article>
     </main>
 
     <aside aria-label="Informações do evento">

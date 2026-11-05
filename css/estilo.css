@@ -217,16 +217,19 @@ main {
   padding: 0 20px;
 }
 
-main > section {
+main > section,
+main > article > section {
   padding: 96px 0;
   border-top: 1px solid var(--linha);
 }
 
-main > section:first-child {
+main > section:first-child,
+main > article > section:first-child {
   border-top: 0;
 }
 
-main > section > h2 {
+main > section > h2,
+main > article > section > h2 {
   margin-bottom: 48px;
   font-size: clamp(1.75rem, 3vw, 2.25rem);
 }
@@ -731,7 +734,8 @@ footer > a:last-child {
     gap: 22px;
   }
 
-  main > section {
+  main > section,
+  main > article > section {
     padding: 64px 0;
   }
 
