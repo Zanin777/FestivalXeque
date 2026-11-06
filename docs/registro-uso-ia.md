@@ -97,28 +97,25 @@ usados**: são como eu pediria hoje, dando contexto e pedindo explicação.
 
 ---
 
-## 3. Revisão técnica (mínimo de 3 alterações)
+## 3. Revisão técnica
 
-> **A preencher pelo estudante.** Para cada alteração: o que a IA gerou,
-> o que foi alterado e por quê. A alteração precisa estar no código.
+### Alteração 1: Estrutura semântica das páginas
 
-### Alteração 1
+- **O que a IA gerou:** Páginas com conteúdo organizado em elementos HTML, como `div`, `section` e outros elementos semânticos.
+- **O que foi alterado:** Foram acrescentados elementos `<article>` nas cinco páginas que ainda não possuíam esse elemento.
+- **Por que foi alterado:** Para melhorar a organização semântica do conteúdo e atender às exigências do enunciado da atividade.
 
-- **O que a IA gerou:**
-- **O que foi alterado:**
-- **Por que foi alterado:**
+### Alteração 2: Adequação do tema do projeto
 
-### Alteração 2
+- **O que a IA gerou:** Um site com o tema original SATEC 2026, voltado para uma semana acadêmica de tecnologia.
+- **O que foi alterado:** Os textos, títulos e informações das páginas foram adaptados para o tema XEQUE 2026, um festival acadêmico de xadrez.
+- **Por que foi alterado:** Para estabelecer uma identidade única para o projeto e deixar todas as páginas coerentes com o tema escolhido.
 
-- **O que a IA gerou:**
-- **O que foi alterado:**
-- **Por que foi alterado:**
+### Alteração 3: Remoção dos estilos CSS
 
-### Alteração 3
-
-- **O que a IA gerou:**
-- **O que foi alterado:**
-- **Por que foi alterado:**
+- **O que a IA gerou:** Um arquivo CSS completo para estilizar as páginas do site.
+- **O que foi alterado:** O CSS foi removido da versão da Entrega 1, mantendo somente a estrutura HTML e os elementos semânticos.
+- **Por que foi alterado:** Porque o objetivo desta entrega é apresentar o esqueleto semântico do site, deixando a estilização para a Entrega 2.
 
 ---
 
