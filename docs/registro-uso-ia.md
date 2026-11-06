@@ -55,54 +55,17 @@ Este registro segue o item 5 do enunciado: **1.** mapeamento de uso,
 
 ---
 
-## 2. Prompts utilizados (na íntegra)
+## 2. | #  | Prompts usados                                                                               | Resultado                                  |
+| -- | -------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| 8  | Criar as demais páginas do site, mantendo o padrão do `index.html`.                          | 6 páginas novas                            |
+| 15 | Escrever o README, adicionar uma descrição do projeto e montar o Registro de Uso de IA.      | `README.md` e este registro                |
+| 16 | Identificar o tema atual do site e transformá-lo em um evento de xadrez.                     | Site convertido para o XEQUE 2026          |
+| 17 | Conferir o site com o enunciado e organizar os commits conforme as exigências da disciplina. | `<article>` adicionado e commits revisados |
+| 21 | Deixar o site somente em HTML, pois esta é a Entrega 1.                                      | CSS removido e branch `entrega-1` criada   |
 
-Todos os prompts estão aqui, exatamente como foram escritos (coluna
-**Prompt original**). A coluna **O que eu quis pedir** é uma versão
-reescrita depois, só para facilitar a leitura; ela não foi enviada à IA.
 
-### 2.1 Pedidos principais
 
-Os pedidos que guiaram o trabalho, em ordem.
-
-| # | O que eu quis pedir | Prompt original | Resultado |
-| :-: | --- | --- | --- |
-| 8 | Criar as demais páginas do site, mantendo o padrão do `index.html`. | *Crie as páginas* | 6 páginas novas |
-| 15 | Escrever o README e uma descrição do projeto, e montar o Registro de Uso de IA. | *Quero que vc adicione o registro de uso da ia e tbm coloque uma pequena descrição e um readme* | `README.md` e este registro |
-| 16 | Identificar o tema atual do site e trocá-lo por um evento de xadrez. | *e tbm quero que analise e me fale o assunto do site e mude para algum assunto de xadrez* | Site convertido para o XEQUE 2026 |
-| 17 | Conferir o site com o enunciado e organizar os commits como a disciplina pede. | *Esse é o pdf da atividade, analise o site e faça o commit la no github da maneira certa* | `<article>` adicionado e commits revisados |
-| 21 | Deixar o site só em HTML, porque esta é a Entrega 1. | *é somente a entrega 1* | CSS removido e branch `entrega-1` criada |
-
-### 2.2 Demais prompts
-
-Ajustes, respostas curtas a perguntas da IA e pedidos de apoio. Os
-prompts 1 a 4 foram sobre CSS, que **não faz parte desta entrega** e foi
-retirado (ver nº 21).
-
-| # | Prompt original | Contexto |
-| :-: | --- | --- |
-| 1 | *vou te mandar um index e é para colocar o css na pagina* | CSS (retirado) |
-| 2 | *vc esta livre para fazer oq quiser com  css, pode adicionar qualquer "biblioteca" no css e utilizar ela* | CSS (retirado); anexos: `index.html` e PDF da Aula 13 |
-| 3 | *ta com muita cara de ia, quero que de uma repaginada* | CSS (retirado) |
-| 4 | *quero algo mais minamalista* | CSS (retirado) |
-| 5 | *certo, agora coloque as imagens* | geração das imagens |
-| 6 | *esta de acordo com esse pdf?* | anexo: PDF da Aula 13 |
-| 7 | *esse aqui é o trabalho na verdade* | anexo: `Projeto Integrador.pdf` |
-| 9 | *aqui não precisa tirar print, pode subir direto pro github* | envio ao GitHub |
-| 10 | *continue de ond eparou* | retomada da tarefa |
-| 11 | *Ainda não criei* / *Matheus Zanin* / *main + entrega-2 (Recomendado)* | respostas a um questionário da IA |
-| 12 | *quer que eu cole aqui a minha conta do github?* | dúvida |
-| 13 | *https://github.com/Zanin777/Trabalho-html* | link do repositório |
-| 14 | *Sim, monte* | resposta: montar o registro de IA? |
-| 18 | *Sim, corrija* | resposta: corrigir a autoria dos commits? |
-| 19 | *não precisa colocar o css na pagina, não é para colocar, pode tirar* | retirada do CSS |
-| 20 | *Hj é a entrega 2?* | dúvida sobre a entrega |
-| 22 | *Esse registro de ia ta meio feio, vc pode melhorar os prompst q eu usei, coloque apenas uns 4 a 5 prompts bem feitos e tirando duvida pfv* | formatação deste registro |
-| 23 | *Mas eu to achando os meus prompts muito feio, e quero algo melhor sabe* | formatação deste registro |
-| 24 | *exatamente, é isso q eu quero que vc faça, apenas faça isso de deixar mais "chique"* | formatação deste registro |
-| 25 | *retire essas duas no começo pfv, pq aqui foi erro meu mesmo* | anexo: print da tabela; prompts 1 e 3 saíram do destaque |
-
-### 2.3 O que aprendi sobre escrever prompts
+### 2.2 O que aprendi sobre escrever prompts
 
 Os prompts acima foram curtos e sem contexto, e por isso a IA precisou
 fazer perguntas e refazer trabalho (o CSS foi feito 3 vezes e depois
