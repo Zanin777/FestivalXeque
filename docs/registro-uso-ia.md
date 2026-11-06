@@ -55,7 +55,7 @@ Este registro segue o item 5 do enunciado: **1.** mapeamento de uso,
 
 ---
 
-## 2. ## 2. Prompts usados
+2. Prompts usados
 
 | # | Prompts usados | Resultado |
 |:-:|---|---|
@@ -66,7 +66,7 @@ Este registro segue o item 5 do enunciado: **1.** mapeamento de uso,
 | 21 | Deixar o site somente em HTML, pois esta é a Entrega 1. | CSS removido e branch `entrega-1` criada |
 
 
-### 2.2 O que aprendi sobre escrever prompts
+### 2.1 O que aprendi sobre escrever prompts
 
 Os prompts acima foram curtos e sem contexto, e por isso a IA precisou
 fazer perguntas e refazer trabalho (o CSS foi feito 3 vezes e depois
