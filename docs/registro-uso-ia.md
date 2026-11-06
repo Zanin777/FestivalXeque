@@ -67,8 +67,6 @@ Os pedidos que guiaram o trabalho, em ordem.
 
 | # | O que eu quis pedir | Prompt original | Resultado |
 | :-: | --- | --- | --- |
-| 1 | Aplicar um estilo CSS ao meu `index.html`. | *vou te mandar um index e é para colocar o css na pagina* | CSS criado (depois retirado, ver nº 21) |
-| 3 | Reformular o visual para algo menos genérico e com mais personalidade. | *ta com muita cara de ia, quero que de uma repaginada* | Novo estilo visual |
 | 8 | Criar as demais páginas do site, mantendo o padrão do `index.html`. | *Crie as páginas* | 6 páginas novas |
 | 15 | Escrever o README e uma descrição do projeto, e montar o Registro de Uso de IA. | *Quero que vc adicione o registro de uso da ia e tbm coloque uma pequena descrição e um readme* | `README.md` e este registro |
 | 16 | Identificar o tema atual do site e trocá-lo por um evento de xadrez. | *e tbm quero que analise e me fale o assunto do site e mude para algum assunto de xadrez* | Site convertido para o XEQUE 2026 |
@@ -77,12 +75,16 @@ Os pedidos que guiaram o trabalho, em ordem.
 
 ### 2.2 Demais prompts
 
-Ajustes, respostas curtas a perguntas da IA e pedidos de apoio.
+Ajustes, respostas curtas a perguntas da IA e pedidos de apoio. Os
+prompts 1 a 4 foram sobre CSS, que **não faz parte desta entrega** e foi
+retirado (ver nº 21).
 
 | # | Prompt original | Contexto |
 | :-: | --- | --- |
-| 2 | *vc esta livre para fazer oq quiser com  css, pode adicionar qualquer "biblioteca" no css e utilizar ela* | anexos: `index.html` e PDF da Aula 13 |
-| 4 | *quero algo mais minamalista* | ajuste do visual |
+| 1 | *vou te mandar um index e é para colocar o css na pagina* | CSS (retirado) |
+| 2 | *vc esta livre para fazer oq quiser com  css, pode adicionar qualquer "biblioteca" no css e utilizar ela* | CSS (retirado); anexos: `index.html` e PDF da Aula 13 |
+| 3 | *ta com muita cara de ia, quero que de uma repaginada* | CSS (retirado) |
+| 4 | *quero algo mais minamalista* | CSS (retirado) |
 | 5 | *certo, agora coloque as imagens* | geração das imagens |
 | 6 | *esta de acordo com esse pdf?* | anexo: PDF da Aula 13 |
 | 7 | *esse aqui é o trabalho na verdade* | anexo: `Projeto Integrador.pdf` |
@@ -98,6 +100,7 @@ Ajustes, respostas curtas a perguntas da IA e pedidos de apoio.
 | 22 | *Esse registro de ia ta meio feio, vc pode melhorar os prompst q eu usei, coloque apenas uns 4 a 5 prompts bem feitos e tirando duvida pfv* | formatação deste registro |
 | 23 | *Mas eu to achando os meus prompts muito feio, e quero algo melhor sabe* | formatação deste registro |
 | 24 | *exatamente, é isso q eu quero que vc faça, apenas faça isso de deixar mais "chique"* | formatação deste registro |
+| 25 | *retire essas duas no começo pfv, pq aqui foi erro meu mesmo* | anexo: print da tabela; prompts 1 e 3 saíram do destaque |
 
 ### 2.3 O que aprendi sobre escrever prompts
 
