@@ -59,11 +59,11 @@ Este registro segue o item 5 do enunciado: **1.** mapeamento de uso,
 
 | # | Prompts usados | Resultado |
 |:-:|---|---|
-| 8 | Criar as demais páginas do site, mantendo o padrão do `index.html`. | 6 páginas novas |
-| 15 | Escrever o README, adicionar uma descrição do projeto e montar o Registro de Uso de IA. | `README.md` e este registro |
-| 16 | Identificar o tema atual do site e transformá-lo em um evento de xadrez. | Site convertido para o XEQUE 2026 |
-| 17 | Conferir o site com o enunciado e organizar os commits conforme as exigências da disciplina. | `<article>` adicionado e commits revisados |
-| 21 | Deixar o site somente em HTML, pois esta é a Entrega 1. | CSS removido e branch `entrega-1` criada |
+| 1 | Criar as demais páginas do site, mantendo o padrão do `index.html`. | 6 páginas novas |
+| 2 | Escrever o README, adicionar uma descrição do projeto e montar o Registro de Uso de IA. | `README.md` e este registro |
+| 3 | Identificar o tema atual do site e transformá-lo em um evento de xadrez. | Site convertido para o XEQUE 2026 |
+| 4 | Conferir o site com o enunciado e organizar os commits conforme as exigências da disciplina. | `<article>` adicionado e commits revisados |
+| 5 | Deixar o site somente em HTML, pois esta é a Entrega 1. | CSS removido e branch `entrega-1` criada |
 
 
 ### 2.1 O que aprendi sobre escrever prompts
