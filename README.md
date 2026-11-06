@@ -6,9 +6,6 @@ Feito para o Projeto Integrador da disciplina *Interface Web com HTML e CSS*,
 reúne programação, palestrantes, formulário de inscrição e perguntas
 frequentes, com foco em semântica e acessibilidade.
 
-> **Entrega 1 – Esqueleto Semântico:** HTML puro, **sem CSS**, como pede
-> o enunciado. O estilo entra na Entrega 2.
-
 **Estudante:** Matheus Zanin
 
 ---
